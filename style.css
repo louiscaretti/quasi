@@ -1,4 +1,4 @@
-p {
+/*p {
     color: black;
     font-size: 1em;
 }
@@ -17,4 +17,17 @@ h1 {
 
 body {
     
+}*/
+
+a {
+  transition: color 0.3s ease-in-out;
+}
+a:hover {
+  color: #FF6347;
+}
+img {
+  transition: transform 0.3s ease-in-out;
+}
+img:hover {
+  transform: scale(1.1);
 }
